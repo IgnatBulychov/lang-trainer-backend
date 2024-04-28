@@ -49,4 +49,5 @@ export interface Sentence {
     [key in Lang]: string;
   };
   tags: Array<Tag>;
+  ngslIndexes: Array<number>;
 }
